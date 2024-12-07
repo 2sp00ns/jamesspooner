@@ -1,52 +1,92 @@
-
 contact:
   - label: Phone
-    value: "+31 123 456 789"
-    link: "tel:+31123456789"
+    value: "+1 672 866 2995"
+    link: "tel:+16728662995"
   - label: Email
-    value: "email@example.com"
-    link: "mailto:email@example.com"
+    value: "jamesspooner1995@gmail.com"
+    link: "mailto:jamesspooner1995@gmail.com"
 
 skills:
-  - name: JavaScript
-    description: "Used in developing dynamic web applications for client demos."
-  - name: HTML/CSS
-    description: "Applied to build static websites and custom UI for product presentations."
-  - name: APIs
-    description: "Experience integrating REST APIs in customer solutions."
+  - name: Esri Suite (ArcGIS Pro, Enterprise, Field Maps, Dashboards)
+    description: "Used extensively for spatial analysis and map production."
+  - name: SQL (MySQL)
+    description: "Applied for maintaining and querying relational databases."
+  - name: QGIS
+    description: "Utilized for geospatial analysis and mapping tasks."
+  - name: Data Analysis
+    description: "Performed spatial and statistical analysis for actionable insights."
+  - name: ModelBuilder
+    description: "Designed and implemented geoprocessing models to automate workflows."
+  - name: Microsoft Power BI
+    description: "Created data visualizations and dashboards for reporting."
+  - name: Microsoft Office
+    description: "Proficient in Word, Excel, and PowerPoint for documentation and reporting."
 
 education:
-  - title: "Bachelor of Science in Computer Science"
-    result: "Graduated with Honors"
-  - title: "High School Diploma"
-    result: "Graduated with Distinction"
+  - title: "BSc (Hons) Geography"
+    result: "University of Brighton (2013-2016)"
+  - title: "International Baccalaureate"
+    result: "Dartford Grammar School (2006-2013)"
 
 references:
-  - name: "Jane Doe"
-    role: "Senior Manager"
-    linkedin: "https://linkedin.com/in/janedoe"
-  - name: "John Smith"
-    role: "Technical Lead"
-    linkedin: "https://linkedin.com/in/johnsmith"
+  - name: "References available upon request"
+    role: ""
+    linkedin: ""
 
 experience:
-  - role: "Solution Engineer"
-    dates: "2020 - Present"
+  - role: "GIS Analyst - Ringway"
+    dates: "March 2022 - August 2024"
     achievements:
-      - "Designed and implemented customer solutions."
-      - "Built static websites for demos."
-      - "Handled technical objections in sales calls."
+      - "Analyzed complex spatial datasets to create maps, charts, and reports."
+      - "Maintained and updated relational databases for data accuracy."
+      - "Designed and implemented geoprocessing models using ModelBuilder."
+      - "Consulted with Transport for London to resolve project issues."
+      - "Achieved a high KPI of 95%, demonstrating efficiency and performance."
+      - "Contributed to reducing company backlog, collecting 80% of outstanding fees."
+      - "Optimized operational efficiency through route analysis."
+
+  - role: "GIS Technician - Cyient"
+    dates: "November 2021 - March 2022"
+    achievements:
+      - "Supported agricultural land management for the Rural Payments Agency."
+      - "Managed and processed spatial data for accurate mapping."
+      - "Classified habitat and land cover for subsidy eligibility."
+      - "Updated databases with accurate land parcel information."
+      - "Conducted quality assurance, consistently exceeding KPIs."
+
+  - role: "GIS Internship - Wildlife & Ecological Investments"
+    dates: "July 2021 - October 2021"
+    achievements:
+      - "Produced vegetation classification maps using Sentinel-2 imagery."
+      - "Applied machine learning algorithms like K-means clustering for habitat classification."
+      - "Plotted endangered species populations to assess altitudinal variation."
+      - "Performed density-based analysis on GPS data to identify activity hotspots."
+      - "Provided insights for anti-poaching efforts and ecosystem restoration."
+
+  - role: "Admissions Officer - London South Bank University"
+    dates: "October 2020 - June 2021"
+    achievements:
+      - "Processed and assessed student applications."
+      - "Maintained accurate records and managed the issuance of offers."
+
+  - role: "Market Research - MBI; ALF Insight"
+    dates: "January 2020 - September 2020"
+    achievements:
+      - "Managed and updated project databases and inventories."
+
+  - role: "Community Associate - IWG plc"
+    dates: "April 2019 - November 2019"
+    achievements:
+      - "Addressed member concerns and handled administrative tasks."
 
 portfolio:
-  - title: "Web-Based Couple's App"
-    dates: "2023"
+  - title: "Market Research - MBI; The Knowledge/KFTV"
+    dates: "January 2018 - December 2018"
     achievements:
-      - "Developed a shared calendar and to-do list."
-      - "Integrated Google Photos for shared albums."
+      - "Ensured agency, production company, and brand profiles were up-to-date."
 
 volunteering:
-  - role: "Tech Volunteer"
-    dates: "2019 - 2020"
+  - role: "Co-ordinator – Parque Machía, Villa Tunari, Bolivia"
+    dates: "January 2019 - March 2019"
     achievements:
-      - "Taught coding to underprivileged students."
-      - "Built a website for a local NGO."
+      - "Coordinated volunteer activities and conservation efforts."
