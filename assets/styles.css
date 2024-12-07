@@ -8,24 +8,51 @@ body {
   color: #000;
 }
 
-/* Header */
+/* Header Styles */
 header {
-  text-align: center;
   background: #1a3f66;
   color: #fff;
-  padding: 0.5em 0;
-  font-size: 1.5em;
-  letter-spacing: 1px;
+  padding: 1em 2em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-text {
+  margin-left: auto;
+  text-align: right;
 }
 
 header h1 {
-  margin: 10px;
+  margin: 0;
+  font-size: 2em;
   font-weight: normal;
 }
 
 header h2 {
-  margin: 10px;
+  margin: 0;
+  font-size: 1.2em;
   font-weight: lighter;
+}
+
+/* Profile Picture Styles */
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #1a3f66;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1em;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Container Layout */

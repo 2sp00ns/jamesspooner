@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,8 +10,15 @@ layout: default
 
 <body>
     <header>
-        <h1>{{ site.title }}</h1>
-        <h2>{{ site.description }}</h2>
+        <div class="header-content">
+            <div class="profile-picture">
+                <img src="" alt="Profile Picture">
+            </div>
+            <div class="header-text">
+                <h1>{{ site.title }}</h1>
+                <h2>{{ site.description }}</h2>
+            </div>
+        </div>
     </header>
 
     <div class="container">
@@ -32,7 +35,10 @@ layout: default
         <div class="right">
             <section>
                 <h3>Summary</h3>
-                <p>Your summary goes here.</p>
+                <p>An experienced GIS Analyst with a strong understanding of ArcGIS Pro and SQL,
+                    along with working knowledge of Python, seeking a new opportunity that
+                    facilitates professional development and offers a varied and challenging
+                    workload.</p>
             </section>
             <hr>
             {% include experience.html %}
