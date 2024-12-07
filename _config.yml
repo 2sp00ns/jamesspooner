@@ -1,4 +1,5 @@
 title: "James Spooner"
 description: "GIS Analyst"
-baseurl: "/jamesspooner"  # This should be the repository name
-url: "https://2sp00ns.github.io"  # Your GitHub Pages URL without the trailing slash
+baseurl: "/jamesspooner"
+url: "https://2sp00ns.github.io"
+theme: null  
