@@ -2,39 +2,56 @@
 layout: default
 ---
 
-<header>
-    <div class="header-content">
-        <div class="profile-picture">
-            <img src="" alt="Profile Picture">
-        </div>
-        <div class="header-text">
-            <h1>{{ site.title }}</h1>
-            <h2>{{ site.description }}</h2>
-        </div>
-    </div>
-</header>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="container">
-    <div class="left">
-        {% include contact.html %}
-        <hr>
-        {% include skills.html %}
-        <hr>
-        {% include education.html %}
-        <hr>
-        {% include references.html %}
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css">
+    <title>{{ site.title }}</title>
+</head>
 
-    <div class="right">
-        <section>
-            <h3>Summary</h3>
-            <p>An experienced GIS Analyst with a strong understanding of ArcGIS Pro and SQL, along with working knowledge of Python, seeking a new opportunity that facilitates professional development and offers a varied and challenging workload.</p>
-        </section>
-        <hr>
-        {% include experience.html %}
-        <hr>
-        {% include portfolio.html %}
-        <hr>
-        {% include volunteering.html %}
+<body>
+    <header>
+        <div class="header-content">
+            <div class="profile-picture">
+                <img src="" alt="Profile Picture">
+            </div>
+            <div class="header-text">
+                <h1>{{ site.title }}</h1>
+                <h2>{{ site.description }}</h2>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="left">
+            {% include contact.html %}
+            <hr>
+            {% include skills.html %}
+            <hr>
+            {% include education.html %}
+            <hr>
+            {% include references.html %}
+        </div>
+
+        <div class="right">
+            <section>
+                <h3>Summary</h3>
+                <p>An experienced GIS Analyst with a strong understanding of ArcGIS Pro and SQL,
+                    along with working knowledge of Python, seeking a new opportunity that
+                    facilitates professional development and offers a varied and challenging
+                    workload.</p>
+            </section>
+            <hr>
+            {% include experience.html %}
+            <hr>
+            {% include portfolio.html %}
+            <hr>
+            {% include volunteering.html %}
+        </div>
     </div>
-</div>
+</body>
+
+</html>
