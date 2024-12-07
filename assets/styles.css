@@ -19,6 +19,14 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+header h1 {
+  margin: 10px;
+}
+
+header h2 {
+  margin: 10px;
+}
+
 /* Container Layout */
 .container {
   display: flex;
