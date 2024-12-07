@@ -21,10 +21,12 @@ header {
 
 header h1 {
   margin: 10px;
+  font-weight: lighter;
 }
 
 header h2 {
   margin: 10px;
+  font-weight: lighter;
 }
 
 /* Container Layout */
