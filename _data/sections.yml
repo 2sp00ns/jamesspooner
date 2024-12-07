@@ -7,19 +7,19 @@ contact:
     link: "mailto:jamesspooner1995@gmail.com"
 
 skills:
-  - name: Esri Suite (ArcGIS Pro, Enterprise, Field Maps, Dashboards)
+  - name: "Esri Suite (ArcGIS Pro, Enterprise, Field Maps, Dashboards)"
     description: "Used extensively for spatial analysis and map production."
-  - name: SQL (MySQL)
+  - name: "SQL (MySQL)"
     description: "Applied for maintaining and querying relational databases."
-  - name: QGIS
+  - name: "QGIS"
     description: "Utilized for geospatial analysis and mapping tasks."
-  - name: Data Analysis
+  - name: "Data Analysis"
     description: "Performed spatial and statistical analysis for actionable insights."
-  - name: ModelBuilder
+  - name: "ModelBuilder"
     description: "Designed and implemented geoprocessing models to automate workflows."
-  - name: Microsoft Power BI
+  - name: "Microsoft Power BI"
     description: "Created data visualizations and dashboards for reporting."
-  - name: Microsoft Office
+  - name: "Microsoft Office"
     description: "Proficient in Word, Excel, and PowerPoint for documentation and reporting."
 
 education:

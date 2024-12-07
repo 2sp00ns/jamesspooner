@@ -1,9 +1,9 @@
-<h3>{{ include.title }}</h3>
-{% for item in include.items %}
+<h3>My Work / Portfolio</h3>
+{% for project in site.data.sections.portfolio %}
   <details>
-    <summary>{{ item.role }} <span>{{ item.dates }}</span></summary>
+    <summary>{{ project.title }} <span>{{ project.dates }}</span></summary>
     <ul>
-      {% for achievement in item.achievements %}
+      {% for achievement in project.achievements %}
         <li>{{ achievement }}</li>
       {% endfor %}
     </ul>
