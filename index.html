@@ -1,17 +1,21 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
-    <title>Your Name - CV</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css">
+    <title>{{ site.title }}</title>
 </head>
 
 <body>
     <header>
-        <h1>Your Name</h1>
-        <h2>Your Profession</h2>
+        <h1>{{ site.title }}</h1>
+        <h2>{{ site.description }}</h2>
     </header>
 
     <div class="container">
@@ -31,24 +35,13 @@
                 <p>Your summary goes here.</p>
             </section>
             <hr>
-            {% include experience.html title="Professional Experience" items=site.data.sections.experience %}
+            {% include experience.html %}
             <hr>
-            {% include portfolio.html title="My Work / Portfolio" items=site.data.sections.portfolio %}
+            {% include portfolio.html %}
             <hr>
-            {% include volunteering.html title="Volunteering" items=site.data.sections.volunteering %}
+            {% include volunteering.html %}
         </div>
     </div>
-    <script>
-        document.querySelectorAll('details').forEach((detail) => {
-            detail.addEventListener('toggle', () => {
-                if (detail.open) {
-                    detail.style.animation = 'expand 0.3s ease-in-out';
-                } else {
-                    detail.style.animation = 'collapse 0.3s ease-in-out';
-                }
-            });
-        });
-    </script>
 </body>
 
 </html>
