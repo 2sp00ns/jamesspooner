@@ -13,7 +13,7 @@ header {
   text-align: center;
   background: #1a1a1a;
   color: #fff;
-  padding: 1.5em 0;
+  padding: 0.5em 0;
   font-size: 1.5em;
   letter-spacing: 1px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@ header {
 
 header h1 {
   margin: 10px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 header h2 {
