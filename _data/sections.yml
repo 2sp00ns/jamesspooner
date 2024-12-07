@@ -1,1 +1,52 @@
 
+contact:
+  - label: Phone
+    value: "+31 123 456 789"
+    link: "tel:+31123456789"
+  - label: Email
+    value: "email@example.com"
+    link: "mailto:email@example.com"
+
+skills:
+  - name: JavaScript
+    description: "Used in developing dynamic web applications for client demos."
+  - name: HTML/CSS
+    description: "Applied to build static websites and custom UI for product presentations."
+  - name: APIs
+    description: "Experience integrating REST APIs in customer solutions."
+
+education:
+  - title: "Bachelor of Science in Computer Science"
+    result: "Graduated with Honors"
+  - title: "High School Diploma"
+    result: "Graduated with Distinction"
+
+references:
+  - name: "Jane Doe"
+    role: "Senior Manager"
+    linkedin: "https://linkedin.com/in/janedoe"
+  - name: "John Smith"
+    role: "Technical Lead"
+    linkedin: "https://linkedin.com/in/johnsmith"
+
+experience:
+  - role: "Solution Engineer"
+    dates: "2020 - Present"
+    achievements:
+      - "Designed and implemented customer solutions."
+      - "Built static websites for demos."
+      - "Handled technical objections in sales calls."
+
+portfolio:
+  - title: "Web-Based Couple's App"
+    dates: "2023"
+    achievements:
+      - "Developed a shared calendar and to-do list."
+      - "Integrated Google Photos for shared albums."
+
+volunteering:
+  - role: "Tech Volunteer"
+    dates: "2019 - 2020"
+    achievements:
+      - "Taught coding to underprivileged students."
+      - "Built a website for a local NGO."

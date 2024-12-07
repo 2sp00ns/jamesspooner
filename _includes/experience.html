@@ -1,1 +1,11 @@
-
+<h3>{{ include.title }}</h3>
+{% for item in include.items %}
+  <details>
+    <summary>{{ item.role }} <span>{{ item.dates }}</span></summary>
+    <ul>
+      {% for achievement in item.achievements %}
+        <li>{{ achievement }}</li>
+      {% endfor %}
+    </ul>
+  </details>
+{% endfor %}

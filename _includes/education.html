@@ -1,1 +1,4 @@
-
+<h3>Education</h3>
+{% for edu in site.data.sections.education %}
+  <p><strong>{{ edu.title }}</strong><br>{{ edu.result }}</p>
+{% endfor %}

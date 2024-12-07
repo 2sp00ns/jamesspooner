@@ -1,1 +1,6 @@
-
+<h3>Skills</h3>
+<ul>
+  {% for skill in site.data.sections.skills %}
+    <li title="{{ skill.description }}">{{ skill.name }}</li>
+  {% endfor %}
+</ul>

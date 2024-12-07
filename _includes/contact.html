@@ -1,1 +1,7 @@
 
+<h3>Contact Details</h3>
+<ul>
+  {% for item in site.data.sections.contact %}
+    <li><a href="{{ item.link }}">{{ item.label }}: {{ item.value }}</a></li>
+  {% endfor %}
+</ul>

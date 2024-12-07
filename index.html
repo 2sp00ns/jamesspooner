@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles.css">
+  <title>Your Name - CV</title>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <h2>Your Profession</h2>
+  </header>
 
+  <div class="container">
+    <div class="left">
+      {% include contact.html %}
+      <hr>
+      {% include skills.html %}
+      <hr>
+      {% include education.html %}
+      <hr>
+      {% include references.html %}
+    </div>
+
+    <div class="right">
+      <section>
+        <h3>Summary</h3>
+        <p>Your summary goes here.</p>
+      </section>
+      <hr>
+      {% include experience.html title="Professional Experience" items=site.data.sections.experience %}
+      <hr>
+      {% include portfolio.html title="My Work / Portfolio" items=site.data.sections.portfolio %}
+      <hr>
+      {% include volunteering.html title="Volunteering" items=site.data.sections.volunteering %}
+    </div>
+  </div>
+</body>
+</html>

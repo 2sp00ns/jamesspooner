@@ -1,1 +1,5 @@
-
+<h3>References</h3>
+{% for ref in site.data.sections.references %}
+  <p><strong>{{ ref.name }}</strong> - {{ ref.role }}<br>
+  <a href="{{ ref.linkedin }}">LinkedIn</a></p>
+{% endfor %}
